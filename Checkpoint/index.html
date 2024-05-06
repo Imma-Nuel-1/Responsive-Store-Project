@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Store</title>
+    <!-- Link to Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header sticky-top">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">TOSMAB</a>
+          <!-- Navbar toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Products section -->
+    <section id="products" class="product-section">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Products</h2>
+        <!-- Product cards -->
+        <div class="row">
+          <!-- Each product card is in a column -->
+          <div class="col-lg-3 col-md-6">
+            <div class="product-card">
+              <img
+                src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWxlY3Ryb25pY3N8ZW58MHwwfDB8fHww"
+                alt="Product Image"
+              />
+              <h3>Electronics</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="btn btn-primary">Shop Now</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product-card">
+              <img
+                src="https://images.unsplash.com/photo-1549439602-43ebca2327af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGZhc2hpb258ZW58MHwwfDB8fHww"
+                alt="Product Image"
+              />
+              <h3>Fashion</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="btn btn-primary">Shop Now</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product-card">
+              <img
+                src="https://images.unsplash.com/photo-1494947665470-20322015e3a8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGV0fGVufDB8MHwwfHx8MA%3D%3D"
+                alt="Product Image"
+              />
+              <h3>Pet</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="btn btn-primary">Shop Now</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="product-card">
+              <img
+                src="https://images.unsplash.com/photo-1515787366009-7cbdd2dc587b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFydCUyMGRyYXdpbmd8ZW58MHwwfDB8fHwws"
+                alt="Product Image"
+              />
+              <h3>Art</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="btn btn-primary">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <!-- About content -->
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut
+          lectus in ipsum consequat suscipit. Pellentesque habitant morbi
+          tristique senectus et netus et malesuada fames ac turpis egestas.
+          Integer maximus malesuada odio, ac posuere elit. Duis vestibulum
+          sagittis risus, non convallis nisi. Fusce malesuada elit vitae justo
+          ultrices, ac fermentum arcu mollis. Sed sed velit id lacus fermentum
+          scelerisque. Nullam blandit volutpat eros nec tincidunt. Quisque
+          faucibus dui sed purus tempus, nec molestie est tempor. Nunc rhoncus
+          sit amet purus sed aliquet. Nullam in turpis eu eros sollicitudin
+          viverra. Vivamus ullamcorper vitae nisi sit amet efficitur. Proin ut
+          fringilla neque. Vivamus nec risus tellus. Vivamus nec nisl nec eros
+          auctor consequat.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <p>Contact us at TOSMAB@gmail.com</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
