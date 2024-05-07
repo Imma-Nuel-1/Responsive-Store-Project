@@ -4,13 +4,51 @@ body {
   padding: 0;
   background-color: #f8f9fa;
 }
+/* Header */
 .header {
   background-color: #343a40;
   color: #fff;
   padding: 10px 0;
   text-align: center;
 }
+/* Hero */
+.hero {
+  background-image: url("https://media.istockphoto.com/id/1327196043/photo/hand-holding-credit-card-and-showing-cart-icon-with-heart-shopping-and-payment-online.webp?b=1&s=170667a&w=0&k=20&c=lORfV0Rl8TcGtnZUbQuZZL1ahDGaiG_7AgxMq8eHIu0=");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: burlywood;
+}
 
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+/* Product-section */
 .product-section {
   padding: 50px 0;
 }
@@ -27,6 +65,7 @@ body {
   border-radius: 8px;
   margin-bottom: 20px;
 }
+/* Footer */
 .footer {
   background-color: #343a40;
   color: #fff;
